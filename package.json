@@ -38,7 +38,7 @@
     "@open-wc/testing": "^2.0.0",
     "@open-wc/demoing-storybook": "^2.0.0",
     "concurrently": "^5.2.0",
-    "sass-style-template" : "^1.0.0"
+    "@blockquote/sass-style-template": "^1.0.0"
   },
   "eslintConfig": {
     "extends": [
