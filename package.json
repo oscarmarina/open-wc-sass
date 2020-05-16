@@ -6,6 +6,12 @@
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
+  "files": [
+    "custom-elements.json",
+    "index.js",
+    "open-wc-sass.js",
+    "src/"
+  ],
   "scripts": {
     "start": "concurrently \"npm:sass:watch\" \"npm:start-openwc\"",
     "start-openwc": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
@@ -39,6 +45,9 @@
     "@open-wc/demoing-storybook": "^2.0.0",
     "concurrently": "^5.2.0",
     "@blockquote/sass-style-template": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "eslintConfig": {
     "extends": [
