@@ -1,6 +1,9 @@
 ## open-wc-sass
 ### open-wc web component and sass
 
+#### [_sass-style-template_ for compile scss](https://github.com/oscarmarina/sass-style-template)
+
+
 **Step 1:**
 
 >In package.json
@@ -18,7 +21,7 @@
  "scripts": {
     //new start sass + server
     "start": "concurrently \"npm:sass:watch\" \"npm:start-open\"",
-    //old "start" now is "start-open"
+    //old "start" now is "start-openwc"
     "start-openwc": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     // new script
     "sass:watch": "sass-style-template",
